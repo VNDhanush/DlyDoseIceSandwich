@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./",
+    "paths": {
+      "assets/*": ["assets/*"],
+      "pages/*": ["pages/*"],
+      "utils/*": ["utils/*"],
+      "images/*": ["images/*"],
+      "routes/*": ["routes.js"],
+      "components/*": ["components/*"],
+      "node_modules/*": ["node_modules/*"]
+
+    }
+  },
+  "exclude": ["node_modules", "out"]
+}
