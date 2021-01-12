@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import Link from 'next/link';
 
@@ -23,22 +24,22 @@ class Banner extends React.Component {
             <div className="d-table-cell">
               <div className="container">
                 <div className="row">
-                  <div className="col-lg-6 col-md-12">
+                  <div className="col-lg-5 col-md-12">
                     <div className="hero-content">
-                      <h1>Dly Dose Ice Sandwich</h1>
-                      <p>Website for the DlyDoseIceCreamSandwich</p>
-
-                      <Link href="#">
-                        <a className="btn btn-primary">Button</a>
-                      </Link>
+                      <h1>Welcome to </h1>
                     </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-12">
+                  <div className="hero-content">
+                    <h1>Dly Dose Ice Sandwich</h1>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* <div className="bg-gray shape-1"></div> 
+          <div className="bg-gray shape-1"></div>
           <div className="shape1">
             <img src="/images/shape1.png" alt="img" />
           </div>
@@ -73,7 +74,7 @@ class Banner extends React.Component {
             <div className="circle large square2"></div>
             <div className="circle large square3"></div>
             <div className="circle large square4"></div>
-          </div>*/}
+          </div>
         </div>
       </React.Fragment>
     );

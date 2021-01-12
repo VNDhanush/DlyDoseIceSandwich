@@ -1,5 +1,5 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
-
 const Partners = () => {
   return (
     <section className="platform-connect ptb-100">
